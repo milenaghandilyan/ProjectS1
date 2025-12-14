@@ -2,6 +2,7 @@
 #include "include/vector.h"
 
 int main() {
+    // Create a vector of integers with initial capacity 2
     Vector* v = vector_create(sizeof(int), 2);
     int input;
 
