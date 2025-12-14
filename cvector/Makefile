@@ -1,4 +1,4 @@
-                                                            Makefile                                                                        
+                                                                        
 # Makefile for CVector project
 
 CC = gcc
