@@ -1,4 +1,3 @@
-                                                                        
 # Makefile for CVector project
 
 CC = gcc
@@ -8,8 +7,7 @@ SRC = src/vector.c main.c
 OUT = vector_demo
 
 all:
-        $(CC) $(CFLAGS) $(INCLUDES) $(SRC) -o $(OUT)
+	$(CC) $(CFLAGS) $(INCLUDES) $(SRC) -o $(OUT)
 
 clean:
-        rm -f $(OUT)
-
+	rm -f $(OUT)
